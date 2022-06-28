@@ -12,6 +12,11 @@ for(num of buttons){
       calculatorValue = '';
       box.value = calculatorValue;
     }
+    else if(buttonText == "^"){
+      buttonText = '**';
+      calculatorValue += buttonText;
+      box.value = calculatorValue;
+    }
     else{
       calculatorValue += buttonText;
       box.value = calculatorValue;

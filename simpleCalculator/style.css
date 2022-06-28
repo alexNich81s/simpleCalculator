@@ -1,4 +1,23 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: darkgray;
+ 
+}
+
+button {
+  font-size: 150%;
+  color: green;
+  background-color: black;
+  height: 40px;
+  width: 65px;
+
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+h1{
+  color: cornsilk;
 }
